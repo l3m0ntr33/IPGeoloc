@@ -1,8 +1,10 @@
 # IPGeoloc
 
 ## Description  
-Take standard input, search for the 1st IP found and use geolite2 to output the found IP and geolocation data.  
-
+Take standard input, search for the 1st IP using regex and use geolite2 to output the found IP and geolocation data.  
+* IP: <IP> - Country: <country> - Continent: <continent> - Timezone: <timezone>  
+If no data found in geolite2 database output "-" character.  
+  
 ## Example  
 ```
 l3m0ntr33@nob:~/IPGeoloc# echo "8.8.8.8" | ~/IPGeoloc/ipgeoloc.py  
