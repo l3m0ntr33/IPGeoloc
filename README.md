@@ -12,9 +12,9 @@ l3m0ntr33@nob:~/IPGeoloc# echo "8.8.8.8" | ~/IPGeoloc/ipgeoloc.py
 IP: 8.8.8.8 -  Country: US -  Continent: NA -  Timezone: America/Los_Angeles  
 l3m0ntr33@nob:~/IPGeoloc#  
 ```  
-For analysis attack logs based on geoIP  
+For fast analysis of attack logs based on geoIP  
 ```
-root@kali:~/IPGeoloc# head -15 attack.log | ./ipgeoloc.py
+l3m0ntr33@nob:~/IPGeoloc# head -15 attack.log | ./ipgeoloc.py
 IP: 79.107.77.52 -  Country: GR -  Continent: EU -  Timezone: Europe/Athens  
 IP: 62.15.116.192 -  Country: ES -  Continent: EU -  Timezone: None  
 IP: 14.99.179.179 -  Country: IN -  Continent: AS -  Timezone: Asia/Kolkata  
@@ -30,7 +30,7 @@ IP: 125.27.247.60 -  Country: TH -  Continent: AS -  Timezone: Asia/Bangkok
 IP: 125.26.222.233 -  Country: TH -  Continent: AS -  Timezone: Asia/Bangkok  
 IP: 201.250.172.210 -  Country: AR -  Continent: SA -  Timezone: America/Argentina/Buenos_Aires  
 IP: 86.219.78.243 -  Country: FR -  Continent: EU -  Timezone: Europe/Paris  
-root@kali:~/IPGeoloc#
+l3m0ntr33@nob:~/IPGeoloc#
 ```
 ## Install dependencies  
 Using pip is the easiest way :  
