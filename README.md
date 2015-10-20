@@ -5,5 +5,5 @@ Description: take standard input, search for the 1st IP found and use geolite2 t
 Example :
 
 l3m0ntr33@nob:~/IPGeoloc# echo "8.8.8.8" | ~/IPGeoloc/ipgeoloc.py
-IP: 8.8.8.8 -  Country: US -  Continent: NA -  Timezone: America/Los_Angeles  
+IP: 8.8.8.8 -  Country: US -  Continent: NA -  Timezone: America/Los_Angeles
 l3m0ntr33@nob:~/IPGeoloc#
